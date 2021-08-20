@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //метод, который выводит на экран сообщение Правильно!/Не правильно!
     public void checkAnswer(boolean btn) {
         if ((questions[questionIndex].isAnswerTrue() && btn) || (!questions[questionIndex].isAnswerTrue() && !btn)) {
             Toast.makeText(MainActivity.this, "Правильно!", Toast.LENGTH_SHORT).show();
