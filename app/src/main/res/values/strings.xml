@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Ответы на вопросики</string>
     <string name="question1">Москва - столица России?</string>
     <string name="question2">2+2=4?</string>
     <string name="question3">5-3=3?</string>
@@ -7,6 +7,8 @@
     <string name="question5">Луна это планета?</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
-    <string name="showAnswer">Показать ответы</string>
-    <string name="answerTextView">Правильный ответ</string>
+<!--    <string name="showAnswer">Показать ответы</string>-->
+<!--    <string name="answerTextView">Правильный ответ</string>-->
+    <string name="answerTextView">Количество правильных ответов: </string>
+    <string name="startAgainBtn">Начать заново</string>
 </resources>
